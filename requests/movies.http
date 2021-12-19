@@ -1,0 +1,22 @@
+GET http://localhost:3000/movies/999
+
+###
+
+GET http://localhost:3000/movies/search?year=2022
+
+###
+
+POST http://localhost:3000/movies
+Content-Type: application/json
+
+{
+  "name": "Tenet",
+  "director": "Nolan"
+}
+
+###
+
+DELETE http://localhost:3000/movies/999
+
+###
+
