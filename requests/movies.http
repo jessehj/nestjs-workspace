@@ -2,7 +2,7 @@ GET http://localhost:3000/movies
 
 ###
 
-GET http://localhost:3000/movies/32
+GET http://localhost:3000/movies/1
 
 ###
 
@@ -14,12 +14,8 @@ POST http://localhost:3000/movies
 Content-Type: application/json
 
 {
-  "name": "Tenet",
-  "year": 2020,
-  "genres": [
-    "action",
-    "mind blown"
-  ]
+  "title": "Tenet2",
+  "year": 2020
 }
 
 ###
@@ -28,7 +24,11 @@ PATCH http://localhost:3000/movies/1
 Content-Type: application/json
 
 {
-  "year": 2018
+  "year": 2018,
+  "genres": [
+    "action",
+    "mind blown"
+  ]
 }
 
 ###
